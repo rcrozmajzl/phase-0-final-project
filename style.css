@@ -1,0 +1,89 @@
+
+.topnav {
+    background-color: #DFDCE3;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #4ABDAC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(46, 48, 49);
+}
+
+.topnav a.active {
+    background-color: #f7b733;
+    color: white;
+  }
+
+#home {
+    background-image: url("images/transp-yellow-flowers.png");
+    background-position: bottom;
+    width: 100%;
+    height: 800px;
+}
+
+#title {
+    font-family: "Lucida handwriting", fantasy;
+    font-size: 70px;
+    text-shadow: 4px 4px #303131a9;
+    text-align: center;
+    position: absolute;    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: #DFDCE3;
+}
+
+#overview {
+    background-color: #DFDCE3;
+}
+
+h2#overview {
+    color: #f7b733;
+}
+
+h2#eight {
+    color: #DFDCE3;
+}
+
+#steps {
+    background-color: #f7b733;
+    text-align: center;
+}
+
+h3 {
+    color: #DFDCE3;
+}
+
+#general {
+    text-align: center;
+}
+
+#about {
+    text-align:center;
+}
+
+h2#final {
+    color: #4ABDAC; 
+}
+
+body {
+    background: #DFDCE3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 4px;
+}
